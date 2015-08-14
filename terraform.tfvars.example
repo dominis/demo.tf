@@ -1,0 +1,4 @@
+aws_access_key = "XXXXXXXXXXXXXXXXXXXX"
+aws_secret_key = "XXXXXXXXXXXXXXXXXXXX"
+key_path = "~/.ssh/GMGWEB.pem"
+key_name = "GMGWEB"
