@@ -1,6 +1,6 @@
 # Terraform demo
 
-## Get started:
+## Usage:
 ```
 brew install terraform
 cd /tmp
