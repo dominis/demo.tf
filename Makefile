@@ -1,6 +1,6 @@
-.PHONY: all plan apply destroy provision ssh
+.PHONY: all plan apply destroy
 
-all: plan apply provision
+all: plan apply
 
 plan:
 	terraform get -update
