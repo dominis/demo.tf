@@ -1,3 +1,3 @@
 output "address" {
-  value = "${aws_elb.web.dns_name}"
+  value = "Instances: ${element(aws_instance.web.*.id, 0)}"
 }
