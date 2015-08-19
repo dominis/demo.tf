@@ -15,6 +15,6 @@ destroy:
 	terraform apply terraform.tfplan
 
 clean:
-	rm -f terraform.tfplan
-	rm -f terraform.tfstate
+	rm -f terraform.tfplan*
+	rm -f terraform.tfstate*
 	rm -fR .terraform/
